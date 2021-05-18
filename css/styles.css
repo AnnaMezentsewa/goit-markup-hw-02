@@ -17,6 +17,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -29,7 +33,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
@@ -147,7 +150,7 @@ body {
 /* Footer */
 
 .footer {
-  background-color: var(--primary-text-color);
+  background-color: var(--footer-bg-color);
 }
 .footer a {
   text-decoration: none;
@@ -159,7 +162,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-footer:hover,
+
 .logo-footer:focus {
   color: var(--accent-color);
 }
@@ -199,9 +202,5 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
-  text-decoration: none;
-}
-
-a {
   text-decoration: none;
 }
