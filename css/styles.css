@@ -152,9 +152,7 @@ a {
 .footer {
   background-color: var(--footer-bg-color);
 }
-.footer a {
-  text-decoration: none;
-}
+
 .logo-footer {
   color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
